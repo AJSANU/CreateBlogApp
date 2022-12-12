@@ -19,5 +19,5 @@ Command is like : yarn add classnames
 
 # Sample Output
 
-
+https://user-images.githubusercontent.com/76152559/207159927-9ec96aa9-c4ab-44de-b952-5b51797c4e41.mp4
 

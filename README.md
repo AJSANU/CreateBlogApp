@@ -16,7 +16,7 @@ This project is intended to develop a blog post app using react having following
 
  4. Edit the blog post
  
- <img width="919" alt="EditPost" src="https://user-images.githubusercontent.com/76152559/207160741-8c8d2fd4-92fc-4144-b149-54e65ba91134.png">
+ <img width="919" alt="EditPost" src="/OutputSnapshots/ImageOutput/EditPost.png">
 
  5. Delete the blog post
  

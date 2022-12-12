@@ -2,7 +2,7 @@
 This project is intended to develop a blog post app using react having following functionalities :
  1. Show the list of blog post.
  
- <img width="959" alt="HomePage" src="https://user-images.githubusercontent.com/76152559/207160549-3065aefc-1f85-41cf-95b6-ef8d145e5e4c.png">
+ <img width="959" alt="HomePage" src=""/OutputSnapshots/ImageOutput/HomePage.png">
 
  2. View details of the blog post.
  

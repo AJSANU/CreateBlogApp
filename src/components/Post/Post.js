@@ -25,6 +25,7 @@ export default function Post({ id, url, title, date, onDelete }) {
 
   function onSubmit() {
     onDelete(id);
+    setVisibility(false);
   }
 
   const handleLikeClick = () => {

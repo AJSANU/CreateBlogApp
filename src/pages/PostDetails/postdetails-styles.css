@@ -1,0 +1,74 @@
+#viewPostPage {
+  width: 70vw;
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 0 -2vw;
+}
+
+#viewPostWrapper {
+  background-color: #f0f0f0;
+  width: 55vw;
+  padding: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#postFormatting {
+  width: 50vw;
+}
+
+#detailFormatting {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: content;
+}
+
+#viewPostWrapper img {
+  float: left;
+  max-width: 21vw;
+  max-height: 31vh;
+  padding: 0 1vw 1vw 0;
+}
+
+#viewPostWrapper h2 {
+  color: #24304b;
+  width: 50vw;
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.7vmax;
+  margin: 0 0 1vh 0;
+}
+
+#viewPostWrapper p {
+  float: none;
+  line-height: 1.5em;
+  margin: 0;
+  text-align: left;
+}
+
+#viewPostWrapper strong,
+#viewPostWrapper em {
+  width: 50vw;
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2vh;
+}
+
+#viewPostWrapper em {
+  justify-content: flex-start;
+}
+
+#viewPostWrapper strong {
+  justify-content: flex-end;
+  text-align: right;
+  font-weight: normal;
+}

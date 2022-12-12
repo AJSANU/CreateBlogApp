@@ -1,0 +1,97 @@
+#postAndButton {
+  display: flex;
+  flex-direction: row;
+  margin: 0 3vw 8vh 3vw;
+}
+
+#postPreview img {
+  object-fit: cover;
+  width: 25vw;
+  min-width: 200px;
+  height: 23vh;
+  margin: 0 0.5vh 0 0.5vh;
+  border-color: black;
+  border-style: solid;
+  background-color:lightcyan
+}
+
+#postPreview h2 {
+  width: 25vw;
+  min-width: 200px;
+  word-wrap: break-word;
+  font-size: clamp(1em, 1.8em, 2em);
+  margin: 0.5vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color:lightcyan
+}
+
+#postPreview {
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+}
+
+#deleteBtn img {
+  width: 20px;
+  height: 20px;
+}
+
+#deleteBtn {
+  width: 20px;
+  height: 20px;
+  margin: 0 0.5vh 0 0.5vh;
+}
+
+#deleteBtn:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f1f3;
+  border-color: black;
+  border-style: solid;
+}
+ 
+.btn-container {
+  display: flex;
+  flex-direction: 'row';
+  align-items: center;
+  background-color: #fff;
+  border-color: black;
+  border-style: solid;
+  padding: 30px 50px;
+  border-radius: 12px;
+}
+ 
+.btn {
+  border: none;
+  color:black;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap:6px;
+  background-color: #bdc0c5;
+  border-radius: 4px;
+  padding: 6px 15px;
+  margin: 0 10px;
+}
+ 
+.like-active {
+  background-color: yellowgreen;
+}
+ 
+.dislike-active {
+  background-color: #FF0063;
+}
